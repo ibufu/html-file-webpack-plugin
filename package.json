@@ -1,0 +1,10 @@
+{
+  "name": "html-file-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Inject webpack assets's source to html.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "morning",
+  "license": "MIT"
+}
