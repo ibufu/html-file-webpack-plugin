@@ -11,7 +11,8 @@ HtmlFilePlugin.prototype.apply = function (compiler) {
             if (typeof filenames === 'string') {
                 filenames = [filenames];
             }
-
+            
+            htmlPluginData.assets.htmlFilePlugin = {};
             for (var i = 0; i < filenames.length; i++) {
                 var name = filenames[i];
                 htmlPluginData.assets.htmlFilePlugin[name] = compilation.assets[name].source();
